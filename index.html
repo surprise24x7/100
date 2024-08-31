@@ -3,6 +3,8 @@
 <html>
 
 <head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <meta property="og:site_name" content="Internet5G">
@@ -54,15 +56,10 @@
 
 
           <div class="quedate__loading">
+          
             <!--loading svg-->
-            <svg id="loading-svg" class="js-hidden" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style=" shape-rendering: auto; " viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" width="10rem">
-              <circle cx="50" cy="50" r="32" stroke-width="8" stroke="#06C167" stroke-dasharray="50.26548245743669 50.26548245743669" fill="none" stroke-linecap="round" transform="rotate(214.395 50 50)">
-                <animateTransform attributeName="transform" type="rotate" dur="1s" repeatCount="indefinite" keyTimes="0;1" values="0 50 50;360 50 50"></animateTransform>
-              </circle>
-              <circle cx="50" cy="50" r="23" stroke-width="8" stroke="#5de9a6" stroke-dasharray="36.12831551628262 36.12831551628262" stroke-dashoffset="36.12831551628262" fill="none" stroke-linecap="round" transform="rotate(-214.395 50 50)">
-                <animateTransform attributeName="transform" type="rotate" dur="1s" repeatCount="indefinite" keyTimes="0;1" values="0 50 50;-360 50 50"></animateTransform>
-              </circle>
-            </svg>
+
+            <span style="font-size:50px; color:rgb(6, 193, 103);" id="loading-svg" class="js-hidden"><i class="fa fa-spinner fa-pulse"></i></span>
              <!--end loading svg-->
 
              <!--checked svg-->
@@ -200,14 +197,8 @@
           <!-- Loading-->
           <div  id="loading-g" class="quedate__step js-hidden">
             <div class="quedate__step-box">
-              <svg class="quedate__animate" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style=" shape-rendering: auto;" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" width="10rem">
-                <circle cx="50" cy="50" r="32" stroke-width="8" stroke="#06C167" stroke-dasharray="50.26548245743669 50.26548245743669" fill="none" stroke-linecap="round" transform="rotate(214.395 50 50)">
-                  <animateTransform attributeName="transform" type="rotate" dur="1s" repeatCount="indefinite" keyTimes="0;1" values="0 50 50;360 50 50"></animateTransform>
-                </circle>
-                <circle cx="50" cy="50" r="23" stroke-width="8" stroke="#5de9a6" stroke-dasharray="36.12831551628262 36.12831551628262" stroke-dashoffset="36.12831551628262" fill="none" stroke-linecap="round" transform="rotate(-214.395 50 50)">
-                  <animateTransform attributeName="transform" type="rotate" dur="1s" repeatCount="indefinite" keyTimes="0;1" values="0 50 50;-360 50 50"></animateTransform>
-                </circle>
-              </svg>
+       
+              <span style="font-size:50px; color:rgb(6, 193, 103);" class="quedate__animate"><i class="fa fa-spinner fa-pulse"></i></span>
             </div>
             <p style="font-size: 14px;font-weight: bold;">Wait, we are validating data</p>
           </div>
